@@ -1,4 +1,4 @@
-.main-container {
+.nav-container {
   margin-left: 24px;
   margin-right: 24px;
   height: 64px;
@@ -31,5 +31,5 @@ nav a {
   text-decoration: none;
   font-family: Helvetica;
   color: gray;
-  margin-right: 1rem;
+  margin-right: 16px;
 }
