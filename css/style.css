@@ -1,6 +1,5 @@
+/*NAV SECTION*/
 .nav-container {
-  margin-left: 24px;
-  margin-right: 24px;
   height: 64px;
   width: auto;
   display: flex;
@@ -8,7 +7,6 @@
   justify-content: space-between;
 }
 .branding-container {
-  background-image: url("../images/ic-logo.svg");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -20,7 +18,7 @@
   font-weight: bold;
   color: black;
   margin-right: 5px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .branding-container h2 {
   font-family: Helvetica;
@@ -32,4 +30,49 @@ nav a {
   font-family: Helvetica;
   color: gray;
   margin-right: 16px;
+}
+
+/*MAIN SECTION*/
+main {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.main-container img {
+  width: 60%;
+}
+.content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+.content h1 {
+  font-family: Helvetica;
+  font-weight: bolder;
+  color: gray;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.content h2 {
+  font-family: Helvetica;
+  font-weight: boldl;
+  color: gray;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.button-cta {
+  background-color: gray;
+  padding: 8px;
+}
+.button-cta p {
+  font-family: helvetica;
+  color: white;
+  text-align: center;
 }

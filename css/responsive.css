@@ -1,0 +1,12 @@
+/*RESPONSIVE SECTION*/
+@media (max-width: 580px) {
+  nav a {
+    display: none;
+  }
+  .branding-container h1 {
+    display: none;
+  }
+  .branding-container h2 {
+    display: none;
+  }
+}
