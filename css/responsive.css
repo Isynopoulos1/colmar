@@ -1,12 +1,43 @@
-/*RESPONSIVE SECTION*/
-@media (max-width: 580px) {
+/*RESPONSIVE DESKTOP*/
+@media (max-width: 1400px) {
+  .images-responsive {
+    display: none;
+  }
+}
+
+/*RESPONSIVE TABLET*/
+@media (max-width: 1000px) {
   nav a {
     display: none;
   }
+  .images-responsive {
+    display: flex;
+  }
+  .images-responsive {
+    display: flex;
+  }
+  .images-responsive img {
+    margin-right: 105px;
+  }
+  .images-responsive {
+    margin-left: 450px;
+  }
+}
+
+/*RESPONSIVE SECTION*/
+@media (max-width: 580px) {
   .branding-container h1 {
     display: none;
   }
   .branding-container h2 {
+    display: none;
+  }
+  .images-responsive {
+    margin-left: 115px;
+  }
+}
+@media (max-width: 250px) {
+  .images-responsive {
     display: none;
   }
 }
