@@ -76,3 +76,6 @@ main {
   color: white;
   text-align: center;
 }
+main {
+  width: auto;
+}
