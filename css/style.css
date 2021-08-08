@@ -1,13 +1,17 @@
 /*NAV SECTION*/
-.nav-container {
+header {
   height: 64px;
-  width: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .branding-container {
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   margin-left: 30px;
@@ -31,7 +35,9 @@ nav a {
   color: gray;
   margin-right: 16px;
 }
-
+.images-responsive {
+  display: none;
+}
 /*MAIN SECTION*/
 main {
   background-color: rgba(0, 0, 0, 0.1);
@@ -46,7 +52,8 @@ main {
   width: 60%;
 }
 .content {
-  width: 300px;
+  width: calc(40% - 24px);
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   margin-left: 24px;
