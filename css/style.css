@@ -86,3 +86,42 @@ main {
 main {
   width: auto;
 }
+/*SECOND CONTAINER*/
+
+.second-container {
+  width: 100%;
+  background-color: white;
+}
+.main-article {
+  width: 60%;
+  border-right: lightgray solid 1px;
+  padding: 32px 24px;
+}
+.main-article img {
+  width: 100%;
+}
+.main-article h1 {
+  font-family: Helvetica;
+  color: gray;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.main-article h2 {
+  font-family: Helvetica;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.main-article p {
+  font-family: Helvetica;
+  color: gray;
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 32px;
+}
+.articles-list {
+  width: 40%;
+}
