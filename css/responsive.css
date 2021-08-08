@@ -45,6 +45,13 @@
 }
 
 /*RESPONSIVE SECTION*/
+@media (max-width: 480px) {
+  .content {
+    margin: 32px 16px;
+    align-items: initial;
+  }
+}
+
 @media (max-width: 450px) {
   /*HEADER*/
   .branding-container h1,
@@ -63,14 +70,14 @@
   }
   /*CONTENT*/
   .content {
-    margin: 0 16px;
+    grid-gap: 0px;
   }
+
   .content h1 {
     margin-bottom: 32px;
-    font-size: 70px;
   }
   .content h2 {
-    font-size: 38px;
+    font-size: 20px;
     margin-bottom: 24px;
   }
   .button-cta p {
@@ -83,5 +90,11 @@
 @media (max-width: 250px) {
   .images-responsive {
     display: none;
+  }
+  .button-cta p {
+    font-size: 20px;
+  }
+  .button-cta {
+    padding: 10px;
   }
 }
