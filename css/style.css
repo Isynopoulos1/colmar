@@ -91,6 +91,7 @@ main {
 .second-container {
   width: 100%;
   background-color: white;
+  display: flex;
 }
 .main-article {
   width: 60%;
@@ -122,6 +123,116 @@ main {
   font-size: 10px;
   margin-bottom: 32px;
 }
+/*ARTICLES LIST*/
 .articles-list {
   width: 40%;
+  padding-left: 16px;
+}
+
+/*ARTICLE 1*/
+
+.article-1 {
+  padding-top: 32px;
+  display: flex;
+  padding-bottom: 16px;
+}
+.article-1 img {
+  width: 35%;
+}
+.info-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+.info-1 h2 {
+  font-family: Helvetica;
+  font-weight: bolder;
+  color: gray;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.info-1 h3 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.info-1 p {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: lightpink;
+  font-size: 15px;
+}
+/*ARTICLE 2*/
+.article-2 {
+  padding-top: 32px;
+  display: flex;
+  padding-bottom: 16px;
+}
+.article-2 img {
+  width: 35%;
+}
+.info-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+.info-2 h2 {
+  font-family: Helvetica;
+  font-weight: bolder;
+  color: gray;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.info-2 h3 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.info-2 p {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: lightpink;
+  font-size: 15px;
+}
+/*ARTICLE 3*/
+.article-3 {
+  padding-top: 32px;
+  display: flex;
+  padding-bottom: 16px;
+  background-color: lightgray;
+}
+.article-3 img {
+  width: 35%;
+}
+.info-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+.info-3 h2 {
+  font-family: Helvetica;
+  font-weight: bolder;
+  color: gray;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.info-3 h3 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.info-3 p {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: white;
+  font-size: 15px;
 }
