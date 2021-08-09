@@ -18,6 +18,9 @@
   .images-responsive img:not(:last-child) {
     margin-right: 16px;
   }
+  .main-article {
+    display: none;
+  }
   /*CONTENT*/
   main {
     width: 100%;
@@ -102,9 +105,7 @@
     padding: 20px;
   }
   /*ARTICLES*/
-  .main-article {
-    display: none;
-  }
+
   .articles-list {
     width: 100%;
   }
