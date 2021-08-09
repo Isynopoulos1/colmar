@@ -126,7 +126,6 @@ main {
 /*ARTICLES LIST*/
 .articles-list {
   width: 40%;
-  padding-left: 16px;
 }
 
 /*ARTICLE 1*/
@@ -135,6 +134,8 @@ main {
   padding-top: 32px;
   display: flex;
   padding-bottom: 16px;
+  padding-left: 16px;
+  border-bottom: 4px double lightgray;
 }
 .article-1 img {
   width: 35%;
@@ -170,6 +171,7 @@ main {
   padding-top: 32px;
   display: flex;
   padding-bottom: 16px;
+  padding-left: 16px;
 }
 .article-2 img {
   width: 35%;
@@ -206,6 +208,7 @@ main {
   display: flex;
   padding-bottom: 16px;
   background-color: lightgray;
+  padding-left: 16px;
 }
 .article-3 img {
   width: 35%;

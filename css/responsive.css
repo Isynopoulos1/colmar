@@ -42,6 +42,21 @@
     grid-gap: 20px;
     align-items: center;
   }
+  /*ARTICLES*/
+  .second-container {
+    flex-direction: column;
+  }
+  .main-article {
+    border-right: none;
+    border-bottom: 4px double lightgray;
+    width: 100%;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .articles-list {
+    width: 100%;
+  }
 }
 
 /*RESPONSIVE SECTION*/
@@ -85,6 +100,13 @@
   }
   .button-cta {
     padding: 20px;
+  }
+  /*ARTICLES*/
+  .main-article {
+    display: none;
+  }
+  .articles-list {
+    width: 100%;
   }
 }
 @media (max-width: 250px) {
