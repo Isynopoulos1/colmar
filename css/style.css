@@ -114,7 +114,7 @@ main {
   font-family: Helvetica;
   color: gray;
   font-size: 15px;
-  margin-bottom: 24px;
+  margin-bottom: 80px;
 }
 .main-article p {
   font-family: Helvetica;
@@ -238,4 +238,66 @@ main {
   font-weight: normal;
   color: white;
   font-size: 15px;
+}
+/*THIRD CONTAINER*/
+.third-container {
+  width: 100%;
+}
+.third-container h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 30px;
+  color: gray;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 72px;
+  margin-right: 72px;
+}
+.row-1 {
+  display: flex;
+  grid-gap: 32px;
+  margin-bottom: 32px;
+}
+.row-2 {
+  display: flex;
+  grid-gap: 32px;
+}
+.courses {
+  width: 350px;
+  height: 300px;
+  background-color: white;
+}
+.courses img {
+  width: 100%;
+}
+.courses-content {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.courses-content h2 {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 8px;
+}
+.courses-content h3 {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: light;
+  color: gray;
+  margin-bottom: 8px;
+}
+.courses-content p {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: light;
+  color: gray;
 }
