@@ -4,6 +4,9 @@
   nav {
     display: none;
   }
+  main {
+    background-color: white;
+  }
   .header-container {
     justify-content: space-between;
     width: 100%;
@@ -21,32 +24,42 @@
   .main-article {
     display: none;
   }
-  .courses-headings {
-    display: flex;
-    flex-direction: column;
-  }
   .row-1 {
-    display: none;
+    display: flex;
   }
   .row-2 {
-    display: none;
+    display: flex;
   }
   .courses-container {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
+    display: none;
   }
-  .courses-headings {
+  /* HEADINGS */
+  .third-container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    height: 30px;
   }
-  .courses-headings h1 {
-    padding: 16px 24px 24px 16px;
+  .headings {
+    display: flex;
     background-color: lightgray;
+    margin-right: 0px;
+    margin-left: 0px;
+    widows: 100%;
+  }
+  .headings h1 {
+    /*padding: 16px 24px 24px 16px;*/
     margin-top: 0px;
     margin-bottom: 1rem;
   }
-  main {
-    background-color: white;
+  .headings h2 {
+    font-family: helvetica;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 1rem;
   }
   /*CONTENT*/
   main {
@@ -87,17 +100,23 @@
   .articles-list {
     width: 100%;
   }
+  .banners-mobile {
+    display: none;
+  }
+  .info-3 p {
+    color: lightpink;
+  }
+  .article-3 {
+    background-color: white;
+  }
 }
-
-/*RESPONSIVE SECTION*/
-@media (max-width: 480px) {
+/*MOBILE SECTION*/
+/*450 WIDTH*/
+@media (max-width: 450px) {
   .content {
     margin: 32px 16px;
     align-items: initial;
   }
-}
-
-@media (max-width: 450px) {
   /*HEADER*/
   .branding-container h1,
   .branding-container h2 {
@@ -117,7 +136,6 @@
   .content {
     grid-gap: 0px;
   }
-
   .content h1 {
     margin-bottom: 32px;
   }
@@ -146,13 +164,15 @@
     display: flex;
     flex-direction: column;
     padding-right: 16px;
+    background-color: white;
   }
-  .banners-responsive {
+  /*BANNERS IMAGES*/
+  .banners-mobile {
     width: 100%;
     display: flex;
     margin-bottom: 64px;
   }
-  .banners-responsive img {
+  .banners-mobile img {
     display: flex;
     width: 100%;
   }
@@ -160,6 +180,14 @@
   .info-2,
   .info-3 {
     margin-bottom: 64px;
+  }
+  /*HEADINGS COURSES*/
+  .courses-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media (max-width: 250px) {
