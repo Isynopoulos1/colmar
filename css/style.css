@@ -35,7 +35,10 @@ nav a {
   color: gray;
   margin-right: 16px;
 }
-.images-responsive {
+.banners-responsive {
+  display: none;
+}
+.banners-responsive img {
   display: none;
 }
 /*MAIN SECTION*/
@@ -252,6 +255,7 @@ main {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+/*COURSES*/
 .courses-container {
   display: flex;
   flex-direction: column;
@@ -300,4 +304,8 @@ main {
   font-size: 15px;
   font-weight: light;
   color: gray;
+}
+/*COURSES HEADINGS*/
+.courses-headings {
+  display: none;
 }
