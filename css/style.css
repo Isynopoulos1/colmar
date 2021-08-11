@@ -338,6 +338,7 @@ video {
 }
 .main-video {
   margin-right: 24px;
+  width: 60%;
 }
 .main-video h2 {
   font-family: Helvetica;
@@ -353,4 +354,40 @@ video {
 }
 .video-miniatures {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2rem;
+}
+.mini-1,
+.mini-2 {
+  display: flex;
+}
+.mini-1 img,
+.mini-2 img {
+  width: 35%;
+  height: auto;
+}
+.mini-content {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mini-content h2 {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+.mini-content h3 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: gray;
+  font-size: 15px;
+}
+.mini-1 {
+  background-color: lightgray;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
 }
