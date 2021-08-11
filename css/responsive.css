@@ -24,9 +24,7 @@
   .main-article {
     display: none;
   }
-  .row-1 {
-    display: flex;
-  }
+  .row-1,
   .row-2 {
     display: flex;
   }
@@ -45,7 +43,6 @@
   }
   .headings {
     display: flex;
-    background-color: lightgray;
     margin-right: 0px;
     margin-left: 0px;
     widows: 100%;
@@ -57,9 +54,13 @@
   }
   .headings h2 {
     font-family: helvetica;
-    color: gray;
+    color: white;
     margin-top: 0px;
     margin-bottom: 1rem;
+    background-color: lightgray;
+    padding: 16px 24px 24px 16px;
+    width: 100%;
+    text-align: center;
   }
   /*CONTENT*/
   main {
@@ -109,6 +110,10 @@
   .article-3 {
     background-color: white;
   }
+  .article-2,
+  .article-3 {
+    border-bottom: 4px double lightgray;
+  }
 }
 /*MOBILE SECTION*/
 /*450 WIDTH*/
@@ -143,11 +148,11 @@
     font-size: 20px;
     margin-bottom: 24px;
   }
-  .button-cta p {
-    font-size: 30px;
-  }
   .button-cta {
     padding: 20px;
+  }
+  .button-cta p {
+    font-size: 30px;
   }
   /*ARTICLES*/
   .articles-list {
