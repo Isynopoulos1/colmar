@@ -1,0 +1,46 @@
+/*NAV SECTION*/
+header {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.images-responsive {
+  display: none;
+}
+
+.branding-container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  height: 32px;
+}
+.branding-container h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: black;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.branding-container h2 {
+  font-family: Helvetica;
+  font-weight: normal;
+  color: gray;
+}
+nav a {
+  text-decoration: none;
+  font-family: Helvetica;
+  color: gray;
+  margin-right: 16px;
+}
+.banners-mobile {
+  display: none;
+}
+.banners-mobile img {
+  display: none;
+}
