@@ -394,3 +394,22 @@ video {
   padding-left: 16px;
   padding-bottom: 16px;
 }
+/*FOOTER SECTION*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 32px 24px;
+}
+footer p {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: gray;
+  font-size: 15px;
+}
+footer a {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: gray;
+  font-size: 15px;
+}
